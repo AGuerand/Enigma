@@ -116,14 +116,8 @@ function DecryptionMasqueJetable($array){
     $sub = 0;
     $phraseId = 0;
     $codeId = 0;
-    $n = 0;
     $n2 = 0;
     $n3 = 0;
-
-
-    foreach (str_split($phrase) as $char1) {
-        $n += 1;
-    }
 
     foreach (str_split($code) as $char2) {
         $arrayCode[$n2] = $char2;
