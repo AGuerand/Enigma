@@ -81,7 +81,6 @@ function ChiffrementVigenere($array,$arrayCode) {
     $phrase = (string)readline('Entrer la phrase a encoder: ');
     $code = (string)readline('Entrer le code: ');
     $letter = "";
-    $result = ""; 
     $idPhrase = 0;
     $n1 = 0;
     $n2 = 0;
@@ -119,9 +118,7 @@ function DechiffrementVigenere($array,$arrayCode) {
     $phrase = (string)readline('Entrer la phrase a decoder: ');
     $code = (string)readline('Entrer le code: ');
     $letter = "";
-    $id = 0;
     $idCode = 0;
-    $idPhrase = 0;
     $n1 = 0;
     $n2 = 0;
 

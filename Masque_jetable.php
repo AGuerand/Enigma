@@ -111,7 +111,6 @@ function EncryptionMasqueJetable($array){
 function DecryptionMasqueJetable($array){
     $phrase = (string)readline('Entrer la phrase a decoder: ');
     $code = (string)readline('Entrer le code: ');
-    $number = 0;
     $letter = "";
     $sub = 0;
     $phraseId = 0;

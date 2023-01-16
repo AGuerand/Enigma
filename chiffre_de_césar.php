@@ -121,7 +121,7 @@
   function DechiffrementCesar($array1) {
       $id = 0;
       $maj = false;
-      $code = (string)readline('Entrer la phrase a encoder: ');
+      $code = (string)readline('Entrer la phrase a decoder: ');
       $decalage = (int)readline('Entrer le decalage: ');
       $result = "";
 
@@ -159,5 +159,7 @@
       return $result;
   }
 
-echo "Le resultat encrypté de Cesar est : " . DechiffrementCesar($array1);
+echo "Le resultat décrypté de Cesar est : " . ChiffrementCesar($array1);
+echo "\n";
+echo "Le resultat décrypté de Cesar est : " . DechiffrementCesar($array1);
 ?>
